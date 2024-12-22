@@ -2,4 +2,4 @@
 ジャパリリックス
 
 ## Description
-This project is a POC to generate multiline text to help with learning Japanese. 
+This project is a POC to generate lyrics in a combination of your desired language and furigana (kanji + their superscript hiragana), to help with learning Japanese. 
