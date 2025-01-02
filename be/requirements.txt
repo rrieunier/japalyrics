@@ -1,0 +1,2 @@
+furigana @ git+https://github.com/rrieunier/furigana.git
+pyyaml==6.0.2

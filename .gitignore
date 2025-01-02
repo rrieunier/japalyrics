@@ -1,3 +1,8 @@
+# Project
+be/src
+be/dst
+be/hist
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

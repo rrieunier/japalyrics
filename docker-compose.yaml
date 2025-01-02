@@ -1,0 +1,18 @@
+name: japalyrics
+services:
+  backend:
+    build: ./be
+    command:
+      - bash
+    tty: true
+    volumes:
+      - ./be/mecabrc:/usr/local/etc/mecabrc
+      - ./be/dicrc:/app/dicrc
+      - ./be/src:/app/src
+      - ./be/hist:/app/hist
+      - ./be/dst:/app/dst
+      - ./be/lyricr.py:/app/lyricr.py
+  #  frontend:
+  #    build: ./fe
+  db:
+    image: redis/redis-stack
